@@ -18,6 +18,6 @@ class Fixnum
       coin_array[3] = (remainder/1).floor()
       remainder= remainder - coin_array[3]
     end
-    "Your change is: " + coin_array[0].to_s + " quarters " + coin_array[1].to_s + " dimes " + coin_array[2].to_s + " nickels " + coin_array[3].to_s + " pennies."
+    "Your change is: " + coin_array[0].to_s + " quarters, " + coin_array[1].to_s + " dimes, " + coin_array[2].to_s + " nickels, and " + coin_array[3].to_s + " pennies."
   end
 end
